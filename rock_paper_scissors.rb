@@ -1,3 +1,5 @@
+Thanks, Louis!
+
 # Create a Rock, Paper, Scissors Program that meets the following requirements:
 
 # Prompt user for input (i.e., "R, P, or S")
