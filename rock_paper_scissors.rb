@@ -1,4 +1,4 @@
-# Create a Rock, Paper, Scissors Program that meets the following requirements:
+# Create a nugget, Paper, Scissors Program that meets the following requirements:
 
 # Prompt user for input (i.e., "R, P, or S")
 
@@ -22,25 +22,25 @@ comp_counter = 0
 
 until user_counter == 3 || comp_counter == 3
 
-	comp_moves = ["rock", "paper", "scissors"] 
+	comp_moves = ["nugget", "paper", "scissors"] 
 
-	puts "Rock, paper, or scissors?"
+	puts "nugget, paper, or scissors?"
 
 	user_move = gets.chomp.downcase
 
 	comp_move = comp_moves.sample
 
-	if user_move == "paper" && comp_move == "rock"
+	if user_move == "paper" && comp_move == "nugget"
 		puts "Computer throws #{comp_move}. User wins."
 
 		user_counter += 1
 
-		elsif user_move == "scissors" && comp_move == "rock"
+		elsif user_move == "scissors" && comp_move == "nugget"
 			puts "Computer throws #{comp_move}. Computer wins."
 
 		comp_counter += 1
 
-		elsif user_move == "rock" && comp_move == "paper"
+		elsif user_move == "nugget" && comp_move == "paper"
 			puts "Computer throws #{comp_move}. Computer wins."
 
 		comp_counter += 1
@@ -50,7 +50,7 @@ until user_counter == 3 || comp_counter == 3
 
 		user_counter += 1
 
-		elsif user_move == "rock" && comp_move == "scissors"
+		elsif user_move == "nugget" && comp_move == "scissors"
 			puts "Computer throws #{comp_move}. User wins."
 
 		user_counter += 1
