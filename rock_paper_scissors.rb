@@ -70,11 +70,12 @@ until user_counter == 3 || comp_counter == 3
 	if user_counter == 3
 
 			puts "User wins!"
+			puts "Well done human!"
 
 		elsif comp_counter == 3
 
 			puts "Computer wins!"
-
+			puts "You were beat by sheer probability"
 	end
 
 	counter += 1 
