@@ -80,3 +80,5 @@ until user_counter == 3 || comp_counter == 3
 	counter += 1 
 
 end
+
+#Hey Louis! Sweet program you made here. I love this game!
